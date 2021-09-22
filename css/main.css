@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin-ext');
+
+body,html{height:100%;}
+/*.wrap{width:100%;}
+header{position:fixed; height:100px; opacity:1; width:100%; color:red;} */
+.inner{position:relative; width:1200px; margin:0 auto; }
+*{margin:0; padding:0; list-style:none; }
+header{width:100%; height:100px; line-height:100px; background:rgba(255,255,255,0.9); text-align:center; position:fixed; z-index:9999;}
+header div{width:1200px; margin:0 auto;}
+header ul li{float:left; font-family: 'Montserrat', sans-serif; color:#333;}
+header .menu_con li{padding-left:40px; font-weight:500; font-size:17px;}
+
+
+#div1{width:1200px; margin:0 auto; position:relative; height:auto;}
+.con_wrap{width:1200px; margin:0 auto; height:auto; padding-top:200px; position:relative;}
+.r_con{float:right; margin-bottom:180px;}
+.r_con p:first-child{font-size:25px; font-weight:500; font-family: 'Montserrat', sans-serif;}
+.r_con p{font-size:16px; font-weight:300; text-align:right; padding-right:10px;}
+.r_con p:last-child{padding-top:12px;}
+.r_con .r_box{width:580px; height:480px; background:#ddd; -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); cursor:pointer; margin:20px 0;}
+
+.r_con .r_box img{ transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/}
+.r_con .r_box img:hover{transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);}
+
+
+
+.l_con{float:left; margin-bottom:180px;}
+.l_con p:first-child{font-size:25px; font-weight:500; font-family: 'Montserrat', sans-serif;}
+.l_con p{font-size:16px; font-weight:300; text-align:left; padding-left:10px;}
+.l_con p:last-child{padding-top:12px;}
+.l_con .l_box{width:580px; height:480px; background:#ddd; -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); cursor:pointer; margin:20px 0;}
+    
+.l_con .l_box img{ transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/}
+.l_con .l_box img:hover{transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);}
+
+
+
+
+  
+#div2{width:1200px; margin:0 auto; position:relative;}
+#div2 .about_tt{font-size:23px; color:#333; margin-top:10px; font-weight:bold; font-family: 'Montserrat', sans-serif;}
+#div2 span.fig{width:10px; height:20px; border-radius:10px; transform: rotate(45deg); background:#f6604c; display:inline-block; margin-right:10px; vertical-align:middle;}
+#div2 table{margin-left:20px;  font-family: 'Montserrat', sans-serif; margin-top:20px;}
+#div2 table tr td{font-size:18px; font-weight:500; padding-bottom:5px;}
+#div2 table tr td:last-child{font-weight:300; font-family: 'Noto Sans KR', sans-serif; padding-left:20px;}
+

@@ -1,0 +1,23 @@
+@media screen and (max-width:1500px){ 
+	.content > div{width:40%; height:auto;}
+	.box1{clear:both; margin:2% 0 0.5% 0}
+	.box2{ float:right; margin:2% 0 0.5% 0}
+	.box3{ clear:both; margin-bottom:1.5%;}
+	.box4{ float:left; margin-bottom:0.5%; }
+	.box5{ clear:both; margin-bottom:1%;}
+	.box6{ float:right; margin-bottom:1%; }
+	.box7{ float:right; margin:0.5% 0 2% 0}
+	.box8{float:left; margin:0.5% 0 2% 0}
+}
+
+@media screen and (max-width:800px){ 
+	.content > div{width:49%; height:auto;}
+	.box1{clear:both; margin:15% 0 0.5% 0}
+	.box2{ float:right; margin:15% 0 0.5% 0}
+	.box3{clear:both; margin-bottom:1.5%;}
+	.box4{float:left; margin-bottom:1.5%; }
+	.box5{clear:both; margin-bottom:1%;}
+	.box6{float:right; margin-bottom:1%; }
+	.box7{ float:right; margin:0.5% 0 2% 0}
+	.box8{ float:left; margin:0.5% 0 2% 0}
+}

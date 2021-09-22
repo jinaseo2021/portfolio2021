@@ -1,0 +1,175 @@
+<!-- ?<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+<html>
+
+ <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=9">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0"/>
+	<title>Jina's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/responsible.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+
+</head>
+
+<body>
+	
+
+
+	<script> 
+		AOS.init(); 
+	</script>
+	<script type="text/javascript">
+		function fnMove(seq){
+			var offset = $("#div"+seq).offset();
+			$("html,body").animate({
+				scrollTop : offset.top -200
+			},400);
+		}
+	</script>
+
+
+
+
+	<header>
+		<div>
+			<ul style="float:left;">
+				<li style="font-size:30px;"><a href="#" style="color:#ed462f; font-weight:600;">Jeena</a></li>
+			</ul>
+			<ul class="menu_con" style="float:right;">
+				<li onclick="fnMove('1')"><a href="#">Home</a></li>
+				<li onclick="fnMove('1')"><a href="#">Portfolio</a></li>
+				<li onclick="fnMove('2')"><a href="#">About</a></li>
+				<li onclick="fnMove('4')"><a href="#">Contact me</a></li>
+			</ul>
+		</div>	
+	</header>
+	
+
+	<div id="div1">
+		<div class="con_wrap" style="position:relative;">
+
+			<div style="width:1200px; background-image:url(images/fixed.png); background-position:50% 50%;  background-size:100%; background-repeat: no-repeat; position: absolute; left: 0;top: 0;right: 0; bottom: 0; background-attachment: fixed;">
+				
+			</div>
+			<!-- <div class="aobut" style="position:fixed; top:50%; left:0; width:100%;">
+				<p style="text-align:center; font-size:100px; color:#f9f9f9; font-weight:bold; z-index:-9999;">Works</p>
+			</div> -->
+			<div class="r_con">
+				<p>DEOHALY</p>
+				<div class="r_box" data-aos="fade-up" data-aos-duration="1000" >
+					<a href="html/sub1.html"><img src="images/deohaly_thum.jpg"></a>
+				</div>
+				<p>PC / Mobile</p>
+				<p>상세페이지, 서브페이지 시안 및 모바일 코딩</p>
+			</div>
+			<div style="clear:both;"></div>
+
+			
+			<div class="l_con">
+				<p>HOLYAROMADERM</p>
+				<a href="html/sub1.html"><div class="l_box" data-aos="fade-up" data-aos-duration="1000">
+					<img src="images/holy_thum.jpg">
+				</div></a>
+				<p>PC / Mobile</p>
+				<p>상세페이지, 서브페이지 시안 및 모바일 코딩</p>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="r_con">
+				<p>현대플러스 손해사정</p>
+				<div class="r_box" data-aos="fade-up" data-aos-duration="1000" onclick="window.open('http://www.hyundaiplus.co.kr/niabbs5/index.php')">
+					<img src="images/hyun_thum.jpg">
+				</div>
+				<p>PC / Mobile</p>
+				<p>상세페이지, 서브페이지 시안 및 모바일 코딩</p>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="l_con">
+				<p>GONG GAN</p>
+				<a href="html/sub1.html"><div class="l_box" data-aos="fade-up" data-aos-duration="1000">
+					<img src="images/gong_thum.jpg">
+				</div></a>
+				<p>PC / Mobile</p>
+				<p>상세페이지, 서브페이지 시안 및 모바일 코딩</p>
+			</div>
+			<div style="clear:both;"></div>
+
+			<div class="pop_design" style="position:relative;">
+				<p style="text-align:center; color:#f6604c; font-size:37px; font-family: 'Montserrat', sans-serif; font-weight:500; margin-bottom:80px;">Popup Design</p>
+				<div style="width:350px; height:350px; background:#ddd; float:left; margin-right:75px; -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);">
+					<img src="images/pop1.png">
+				</div>
+				<div style="width:350px; height:350px; background:#ddd; float:left; margin-right:75px; -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);">
+					<img src="images/pop2.png">
+				</div>
+				<div style="width:350px; height:350px; background:#ddd; float:left; -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);">
+					<img src="images/pop3.png">
+				</div>
+			</div>
+			<div style="clear:both; margin-bottom:200px;"></div>
+		</div>
+	</div>	
+
+
+	<div id="div2" style="padding-bottom:200px;">
+		<p style="text-align:center; color:#f6604c; font-size:37px; font-family: 'Montserrat', sans-serif; font-weight:500; margin-bottom:80px;">About</p>
+		<div style="width:1000px; margin:0 auto; overflow:hidden;">
+			<div style="width:270px; height:270px; border-radius:270px; background:#ddd; float:left;"></div>
+			<div style="width:550px; float:right;">
+				<div class="profile">
+					<p class="about_tt"><span class="fig"></span>Profile</p>
+					<table>
+						<tr>
+							<td>Name</td>
+							<td>서진아</td>
+						</tr>
+						<tr>
+							<td>Age</td>
+							<td>28(1994.12.25)</td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td>sjatjwlsdk@naver.com</td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class="career" style="margin-top:50px;">
+					<p class="about_tt"><span class="fig"></span>Career</p>
+					<table>
+						<tr>
+							<td>2020.03-2021.03</td>
+							<td>(주)뷰티니아 웹에이전시 근무</td>
+						</tr>
+						<tr>
+							<td>2019.05-2019.11</td>
+							<td>종로 하이미디어 UI/UX 디자인 교육과정 수료</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+
+
+		
+</body>
+
+
+</html>
