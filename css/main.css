@@ -58,8 +58,8 @@ header .menu_con li{padding-left:40px; font-weight:500; font-size:17px;}
 
   
 #div2{width:1200px; margin:0 auto; position:relative;}
-#div2 .about_tt{font-size:23px; color:#333; margin-top:10px; font-weight:bold; font-family: 'Montserrat', sans-serif;}
-#div2 span.fig{width:10px; height:20px; border-radius:10px; transform: rotate(45deg); background:#f6604c; display:inline-block; margin-right:10px; vertical-align:middle;}
+#div2 .about_tt{font-size:21px; color:#333; margin-top:10px; font-weight:bold; font-family: 'Montserrat', sans-serif;}
+#div2 span.fig{width:10px; height:18px; border-radius:10px; transform: rotate(45deg); background:#f6604c; display:inline-block; margin-right:8px; vertical-align:middle;}
 #div2 table{margin-left:20px;  font-family: 'Montserrat', sans-serif; margin-top:20px;}
 #div2 table tr td{font-size:18px; font-weight:500; padding-bottom:5px;}
 #div2 table tr td:last-child{font-weight:300; font-family: 'Noto Sans KR', sans-serif; padding-left:20px;}
