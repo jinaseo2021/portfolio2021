@@ -13,6 +13,8 @@ header ul li{float:left; font-family: 'Montserrat', sans-serif; color:#333;}
 header .menu_con li{padding-left:40px; font-weight:500; font-size:17px;}
 
 
+
+
 #div1{width:1200px; margin:0 auto; position:relative; height:auto;}
 .con_wrap{width:1200px; margin:0 auto; height:auto; padding-top:200px; position:relative;}
 .r_con{float:right; margin-bottom:180px;}
@@ -33,7 +35,8 @@ header .menu_con li{padding-left:40px; font-weight:500; font-size:17px;}
     -ms-transform: scale(1.03);
     -o-transform: scale(1.03);}
 
-
+.r_con p.text1{font-family: 'Montserrat', sans-serif; font-weight:500; font-size:14px;}
+.r_con p.text2{font-family:'Noto Sans KR', sans-serif; font-weight:300; font-size:15px; color:#999; letter-spacing:-1px;}
 
 .l_con{float:left; margin-bottom:180px;}
 .l_con p:first-child{font-size:25px; font-weight:500; font-family: 'Montserrat', sans-serif;}
@@ -53,6 +56,8 @@ header .menu_con li{padding-left:40px; font-weight:500; font-size:17px;}
     -ms-transform: scale(1.03);
     -o-transform: scale(1.03);}
 
+.l_con p.text1{font-family: 'Montserrat', sans-serif; font-weight:500; font-size:14px;}
+.l_con p.text2{font-family:'Noto Sans KR', sans-serif; font-weight:300; font-size:15px; color:#999; letter-spacing:-1px;}
 
 
 

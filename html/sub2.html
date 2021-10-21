@@ -1,12 +1,18 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
  <head>
+  <meta charset="utf-8">
   <title> New Document </title>
   <meta name="Generator" content="EditPlus">
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <style>
 	*{margin:0;padding:0}
 	body,p,table,th,td,form,fieldset,legend,input,textarea,button,select,object{
@@ -26,10 +32,14 @@
  </head>
 
  <body>
+	<script> 
+		AOS.init(); 
+	</script>
+
 	 <div style="width:100%; margin:0 auto; height:700px; position:relative; background:url(../images/hyun_bg.jpg)no-repeat center;">
 		 <p class="bg_title">HYUNDAI PLUS</p> 
 	 </div>
-	 <div class="view_info">
+	 <div class="view_info" data-aos="fade-right" data-aos-duration="1500" style="font-family:'Noto Sans KR', sans-serif;">
 		 <div style="margin-bottom:70px;">
 			<p class="view_title">현대플러스 손해사정(주)</p>			
 		   <div style="clear:both;"></div>	
@@ -40,14 +50,14 @@
 			<table>
 				<tr>
 					<td>DESIGN</td>
-					<td>BRAND STORY, 상세페이지, 모바일 메인</td>
+					<td>PC/모바일 서브페이지 100%</td>
 				</tr>
 				<tr>
 				   <td>CODING</td>
-				   <td>모바일80%</td>
+				   <td>서브페이지 80%</td>
 			   </tr>
 			</table>
-			<p style="font-size:14px; font-weight:300; margin-top:15px;">※작업 참여한 부분으로만 구성하였습니다.</p>
+			<p style="font-size:16px; font-weight:300; margin-top:15px;">※작업 참여한 부분으로만 구성하였습니다.</p>
 		</div>
 		 <div class="view_info_r">
 			 <div>
@@ -56,7 +66,7 @@
 			 </div>
 			 <div>
 				<p>DATE</p>
-				<p>2020.12</P>
+				<p>2020.08</P>
 			</div>
 			<div>
 				<p>TYPE</p>
@@ -65,18 +75,30 @@
 		 </div>
 		 <div style="clear:both;"></div>
 		 <!---visit site--->
-		 <div style="width:120px; height:30px; float:right; position:relative; margin-top:50px; cursor:pointer;" onclick="window.open('http://www.hyundaiplus.co.kr/niabbs5/index.php')">
+		 <div style="width:120px; height:30px; float:right; position:relative; margin-top:0px; cursor:pointer;" onclick="window.open('http://www.hyundaiplus.co.kr/niabbs5/index.php')">
 			<p style="position:absolute; top:0; font-size:18px; font-family: 'Montserrat', sans-serif; font-weight:600;">View Site</p>
 			<p style="position:absolute; bottom:0; right:0;"><img src="../images/arrow.png"></p>
 		</div>
 		 <div style="clear:both;"></div>
 	 </div>
-
+	
+	<!--메인목업--> 
 	<div style="width:100%; margin-bottom:100px; height:800px;">
 		<div style="width:100%; background:#0d5295; position:relative; height:600px;">
-			<div style="width:1050px; margin:0 auto; padding-top:200px;"><img src="../images/sub2_01.png"></div>
+			<div style="width:1050px; margin:0 auto; padding-top:200px;" data-aos="fade-up" data-aos-duration="2000"><img src="../images/sub2_01.png"></div>
 		</div>
 	</div> 
+
+	<!--오버뷰설명-->
+	<div style="text-align:center; margin-bottom:100px; font-family:'Noto Sans KR', sans-serif;">
+		<p style="font-size:16px; font-family: 'Montserrat', sans-serif; font-weight:600; color:#616161;">Overview</p>
+		<p style="font-size:20px; margin-top:30px;" data-aos="fade-left" data-aos-duration="1500">'현대플러스 손해사정' 기업 웹사이트</p>
+		<p style="font-size:16px; font-weight:300; margin-top:30px; line-height:165%;" data-aos="fade-left" data-aos-duration="1500">현대플러스 손해사정의 로고 컬러인 블루와 그린을 메인 컬러로 <br>사용하여 기업이 추구하는 전문적인 이미지를 표현했으며, <br>기업의 사이트인 만큼 직관적인 내용전달을 위해 도식화를 사용한 디자인을 하였습니다. </p>
+
+		<p style="font-size:16px; font-family: 'Montserrat', sans-serif; font-weight:600; color:#616161; margin-top:80px;">Colour</p>
+		<p style="margin-top:30px;" data-aos="fade-left" data-aos-duration="1000"><img src="../images/sub2_color.png"></p>
+	</div>
+	<!--오버뷰설명끝-->
 	
 	<div style="background:#f7f7f7; padding-bottom:100px; padding-top:30px; width:100%;">
 		<img src="../images/hyun.png" style="width:100%;">

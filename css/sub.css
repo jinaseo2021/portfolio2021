@@ -5,8 +5,8 @@ body,html{height:100%;}
 
 .bg_title{color:#fff; font-size:50px; font-family: 'Montserrat', sans-serif; font-weight:600; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%);}
 
-.view_info{width:1050px; margin:0 auto; padding:100px 0;}
-.view_title{font-family: 'Noto Sans KR', sans-serif; font-size:35px; font-weight:500; }
+.view_info{width:1100px; margin:0 auto; padding:100px 0;}
+.view_title{font-family: 'Montserrat', sans-serif; font-size:35px; font-weight:500; float:left;}
 
 .view_info_r{float:right; width:455px;}
 .view_info_r div{float:left; border-right:1px solid #d8d8d8; width:150px; text-align:center; font-family: 'Montserrat', sans-serif; font-size:16px; font-weight:500;}

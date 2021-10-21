@@ -7,6 +7,11 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <style>
 	*{margin:0;padding:0}
 	body,p,table,th,td,form,fieldset,legend,input,textarea,button,select,object{
@@ -26,10 +31,14 @@
  </head>
 
  <body>
+	<script> 
+		AOS.init(); 
+	</script>
+
 	 <div style="width:100%; margin:0 auto; height:700px; position:relative; background:url(../images/gong_bg.jpg)no-repeat center;">
 		 <p class="bg_title">GONGGAN</p> 
 	 </div>
-	 <div class="view_info">
+	 <div class="view_info" data-aos="fade-right" data-aos-duration="1500" style="font-family:'Noto Sans KR', sans-serif;">
 		 <div style="margin-bottom:70px;">
 			<p class="view_title">공간</p>
 		
@@ -49,7 +58,7 @@
 				   <td>웹/모바일 100%</td>
 			   </tr>
 			</table>
-			<p style="font-size:14px; font-weight:300; margin-top:15px;">※작업 참여한 부분으로만 구성하였습니다.</p>
+			<p style="font-size:15px; font-weight:300; margin-top:15px;">※작업 참여한 부분으로만 구성하였습니다.</p>
 		</div>
 		 <div class="view_info_r">
 			 <div>
@@ -66,18 +75,32 @@
 			</div>
 		 </div>
 		 <div style="clear:both;"></div>
-		 <div style="width:120px; height:30px; float:right; position:relative; margin-top:50px; cursor:pointer;" onclick="window.open('http://www.gonggan24.com/niabbs5/index.php')">
+		 <div style="width:120px; height:30px; float:right; position:relative; margin-top:0px; cursor:pointer;" onclick="window.open('http://www.gonggan24.com/niabbs5/index.php')">
 			<p style="position:absolute; top:0; font-size:18px; font-family: 'Montserrat', sans-serif; font-weight:600;">View Site</p>
 			<p style="position:absolute; bottom:0; right:0;"><img src="../images/arrow.png"></p>
 		</div>
 		 <div style="clear:both;"></div>
 	 </div>
 
-	 <div style="width:100%; background:#363e49; margin-bottom:100px; position:relative; height:600px;">
-		<p style="text-align:center; padding-top:200px;"><img src="../images/sub4_01.png"></p>
+	<!--메인목업--> 
+	<div style="width:100%; margin-bottom:100px; height:800px;">
+		<div style="width:100%; background:#363e49; position:relative; height:600px;">
+			<div style="width:1050px; margin:0 auto; padding-top:200px;" data-aos="fade-up" data-aos-duration="2000"><img src="../images/sub4_01.png"></div>
+		</div>
 	</div> 
 
-	<div style=" -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); width:1050px; margin:0 auto; margin-top:300px;">
+	<!--오버뷰설명-->
+	<div style="text-align:center; margin-bottom:100px; font-family:'Noto Sans KR', sans-serif;">
+		<p style="font-size:16px; font-family: 'Montserrat', sans-serif; font-weight:600; color:#616161;">Overview</p>
+		<p style="font-size:20px; margin-top:30px;" data-aos="fade-left" data-aos-duration="1500">'공간' 기업 웹사이트</p>
+		<p style="font-size:16px; font-weight:300; margin-top:30px; line-height:165%;" data-aos="fade-left" data-aos-duration="1500">공간은 철거 전문업체로서 고객의 빠른 문의를 위해 비주얼영역에 전화번호를 노출시키고, <br>견적문의와 현장사진 페이지의 이용률이 높아 바로 접근 할 수 있도록 메인페이지에 노출시켰습니다.</p>
+
+		<p style="font-size:16px; font-family: 'Montserrat', sans-serif; font-weight:600; color:#616161; margin-top:80px;">Colour</p>
+		<p style="margin-top:30px;" data-aos="fade-left" data-aos-duration="1000"><img src="../images/sub4_color.png"></p>
+	</div>
+	<!--오버뷰설명끝-->
+
+	<div style=" -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); width:1050px; margin:0 auto;" data-aos="fade-up" data-aos-duration="1500">
 		<p style="text-align:center;"><img src="../images/sub4_02.jpg"></p>
 	</div>
 	<div style="width:100%; background:#fbfbfb; margin-top:150px;">

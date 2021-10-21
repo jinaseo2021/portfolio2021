@@ -7,6 +7,11 @@
   <meta name="Keywords" content="">
   <meta name="Description" content="">
   <link rel="stylesheet" href="../css/reset.css" type="text/css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <style>
 	*{margin:0;padding:0}
 	body,p,table,th,td,form,fieldset,legend,input,textarea,button,select,object{
@@ -26,10 +31,14 @@
  </head>
 
  <body>
+	<script> 
+		AOS.init(); 
+	</script>
+
 	 <div style="width:100%; margin:0 auto; height:700px; position:relative; background:url(../images/camp_bg.jpg)no-repeat center;">
 		 <p class="bg_title">CAMPING FLATFROM</p> 
 	 </div>
-	 <div class="view_info">
+	 <div class="view_info" data-aos="fade-right" data-aos-duration="1500" style="font-family:'Noto Sans KR', sans-serif;">
 		 <div style="margin-bottom:70px;">
 			<p class="view_title">캠핑플랫폼</p>
 		
@@ -49,7 +58,7 @@
 				   <td>웹/모바일 100%</td>
 			   </tr> -->
 			</table>
-			<p style="font-size:14px; font-weight:300; margin-top:15px;">※작업 참여한 부분으로만 구성하였습니다.</p>
+			<p style="font-size:15px; font-weight:300; margin-top:15px;">※작업 참여한 부분으로만 구성하였습니다.</p>
 		</div>
 		 <div class="view_info_r">
 			 <div>
@@ -58,7 +67,7 @@
 			 </div>
 			 <div>
 				<p>DATE</p>
-				<p>2020.11</P>
+				<p>2020.08</P>
 			</div>
 			<div>
 				<p>TYPE</p>
@@ -74,10 +83,21 @@
 	 </div>
 
 	<div style="width:100%; background:url(../images/sub5_01.jpg)no-repeat center top; margin-bottom:100px; position:relative; height:800px;">
-		<p style="text-align:center; padding-top:200px"><img src="../images/sub5_02.png"></p>
+		<p style="text-align:center; padding-top:200px" data-aos="fade-up" data-aos-duration="2000"><img src="../images/sub5_02.png"></p>
 	</div>  
 
-	<div style=" -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); width:1050px; margin:0 auto;">
+	<!--오버뷰설명-->
+	<div style="text-align:center; margin-bottom:100px; font-family:'Noto Sans KR', sans-serif;">
+		<p style="font-size:16px; font-family: 'Montserrat', sans-serif; font-weight:600; color:#616161;">Overview</p>
+		<p style="font-size:20px; margin-top:30px;" data-aos="fade-left" data-aos-duration="1500">캠핑 플랫폼 사이트</p>
+		<p style="font-size:16px; font-weight:300; margin-top:30px; line-height:165%;" data-aos="fade-left" data-aos-duration="1500">'캠핑다나와'는 캠핑 플랫폼 사이트로 비주얼 영역에 <br>간단하고 빠르게 유형별로 캠핑장을 검색 할 수 있도록 검색바를 넣었습니다. <br>메인페이지에 추천캠핑장, 지역별, 테마별로 캠핑장을 다양하게 노출시켜 <br>고객이 신뢰하고 여러 캠핑장을 비교해 볼 수 있게 노출시켰습니다. <br>또한, 캠핑장 상세페이지에서 캠핑장 정보, 리얼 후기, 주변 명소까지 <br>유용한 정보를 얻을 수 있도록 구성하였습니다.</p>
+
+		<p style="font-size:16px; font-family: 'Montserrat', sans-serif; font-weight:600; color:#616161; margin-top:80px;">Colour</p>
+		<p style="margin-top:30px;" data-aos="fade-left" data-aos-duration="1500"><img src="../images/sub5_color.png"></p>
+	</div>
+	<!--오버뷰설명끝-->
+
+	<div style=" -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); width:1050px; margin:0 auto;" data-aos="fade-up" data-aos-duration="1500">
 		<p style="text-align:center;"><img src="../images/sub5_03.jpg"></p>
 	</div>
 	<div style="width:100%; margin-top:100px;">
